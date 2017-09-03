@@ -1,5 +1,5 @@
 
-// © 2017 Nick Freear.
+// ISAD widget main function | © 2017 Nick Freear.
 
 var L = window.location;
 
@@ -16,7 +16,7 @@ module.exports = function (ISAD_DATE, methods) {
     date: ISAD_DATE,
     texts: {
       en: {
-        p1: '<i class="i-p1">The 22nd October is <a href="http://isad.isastutter.org/">International Stammering Awareness Day (ISAD)</a>.</i>',
+        p1: '<i class="i-p1">The 22nd October is <a href="http://isad.isastutter.org/">International Stuttering Awareness Day (ISAD)</a>.</i>',
         theme: '<em class="i-theme">Theme: a world that understands stuttering.</em>'
       }
     },

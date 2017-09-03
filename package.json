@@ -2,27 +2,31 @@
   "private": true,
   "name": "isad-widget",
   "version": "1.0.0-beta",
-  "description": "Display a banner-link to promote International Stuttering Awareness Day (ISAD) - 22nd October ... © Nick Freear, 21-Jul-2017, 01-Sep-2017 ...",
+  "description": "Display a banner-link to promote International Stuttering Awareness Day (ISAD) - 22nd October.",
   "license": "MIT",
-  "browser": "dist/isad-widget.js",
+  "x-browser": "dist/isad-widget.js",
+  "unpkg": "dist/isad-widget.js",
   "main": "./index.js",
   "author": "Nick Freear {@nfreear}",
   "repository": "https://github.com/nfreear/isad-widget",
   "devDependencies": {
     "browserify": "^14.4.0",
+    "csslint": "^1.0.5",
     "less": "^2.7.2",
     "semistandard": "^11.0.0"
   },
   "scripts": {
-    "build": "npm run semi && npm run browserify && npm run less",
+    "build": "npm run mkdir && npm run browserify && npm run less",
+    "test": "semistandard && csslint style",
+    "mkdir": "[ -d dist ] || mkdir dist",
     "browserify": "browserify index.js > dist/isad-widget.js",
-    "less": "lessc style/isad-widget.less > style/isad-widget.css",
-    "less-x": "node_modules/.bin/lessc dropbox/isad-widget.less > isad-widget.css",
-    "semi": "semistandard"
+    "less": "lessc style/isad-widget.less > style/isad-widget.css"
   },
   "semistandard": {
     "ignore": [
-      "dist", "dropbox", "gaad-*"
+      "dist",
+      "dropbox",
+      "gaad-*"
     ]
   },
   "//": [

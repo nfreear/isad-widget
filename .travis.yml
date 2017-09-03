@@ -8,12 +8,14 @@ git:
 
 install:
   - npm install
+  #- [ -d dist ] || mkdir dist
 
 script:
   - npm run build
-  #- npm test
+  - npm test
 
 after_script:
   - ls -alh dist
+  - ls -alh style
 
 # End.
