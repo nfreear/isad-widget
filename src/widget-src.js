@@ -7,7 +7,6 @@ module.exports = function (ISAD_DATE, methods) {
   'use strict';
 
   var TODAY = new Date();
-
   var defaults = {
     id: 'isad-widget',
     script: '/isad-widget',
@@ -17,7 +16,7 @@ module.exports = function (ISAD_DATE, methods) {
     texts: {
       en: {
         p1: '<i class="i-p1">The 22nd October is <a href="http://isad.isastutter.org/">International Stuttering Awareness Day (ISAD)</a>.</i>',
-        theme: '<em class="i-theme">Theme: a world that understands stuttering.</em>'
+        theme: '<em class="i-theme">2017 theme: a world that understands stuttering.</em>'
       }
     },
     url: 'http://isad.isastutter.org/',

@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "isad-widget",
   "version": "1.0.0-beta",
   "description": "Display a banner-link to promote International Stuttering Awareness Day (ISAD) - 22nd October.",
@@ -23,14 +22,19 @@
     "less": "lessc style/isad-widget.less > style/isad-widget.css"
   },
   "semistandard": {
-    "ignore": [
-      "dist",
-      "dropbox",
-      "gaad-*"
-    ]
+    "ignore": [ "dist", "dropbox", "gaad-*" ]
   },
-  "//": [
-    "https://stammering.org/sites/default/files/isad_ribbon.jpg",
-    "https://en.wikipedia.org/wiki/File:Teal_ribbon.svg#!-license:CC-BY-3.0"
+  "keywords": [
+    "stammer",
+    "stutter",
+    "campaign",
+    "browser-widget",
+    "event",
+    "day",
+    "international",
+    "ISAD"
+  ],
+  "files": [
+    "index.js", "dist/", "src/", "style/"
   ]
 }
