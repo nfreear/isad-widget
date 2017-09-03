@@ -1,0 +1,55 @@
+/*!
+  isad-widget styles | ©2017 Nick Freear | License: MIT.
+*/
+
+.isad-widget-js {
+  background-color: #f4f4f4;
+  // https://en.wikipedia.org/wiki/File:Teal_ribbon.svg
+  // https://commons.wikimedia.org/wiki/File:Teal_ribbon.svg
+  background-image: data-uri('./Teal_ribbon.svg');
+  // background-image: url(https://www.stammering.org/sites/default/files/isad_ribbon.jpg);
+  // background-image: data-uri('./isad_ribbon.jpg'); // Too big, 83 kB !!
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  border: 3px solid #82e0cd;
+  border-radius: 6px;
+  color: #16846d;
+  font: 1.1em sans-serif;
+  line-height: 1.6em;
+  min-height: 3em;
+  padding: 1em 45px 1em 8px;
+
+  &:hover {
+    background-color: #fff;
+  }
+
+  i {
+    font-style: normal;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  .i-p1 {
+    display: block;
+  }
+
+  .i-conf,
+  .i-theme {
+    display: inline-block;
+    font-size: .95em;
+    padding-right: .3em;
+  }
+
+  a {
+    color: #16846d;
+    text-decoration: underline;
+  }
+
+  a:hover,
+  a:focus {
+    border-bottom: 2px dotted gray;
+  }
+}

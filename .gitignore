@@ -1,0 +1,10 @@
+
+dist
+dropbox
+gaad-*
+node_modules
+*.jpg
+*.css
+*.html
+*.log
+package-lock.json
