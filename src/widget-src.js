@@ -15,11 +15,11 @@ module.exports = function (ISAD_DATE, methods) {
     date: ISAD_DATE,
     texts: {
       en: {
-        p1: '<i class="i-p1">The 22nd October is <a href="http://isad.isastutter.org/">International Stuttering Awareness Day (ISAD)</a>.</i>',
-        theme: '<em class="i-theme">2017 theme: a world that understands stuttering.</em>'
+        p1: '<i class="i-p1">The 22nd October is <a href="http://isastutter.org/what-we-do/isad">International Stuttering Awareness Day (ISAD)</a>.</i>',
+        theme: '<em class="i-theme">2017 theme: <q>a world that understands stuttering.</q></em>'
       }
     },
-    url: 'http://isad.isastutter.org/',
+    url: 'http://isastutter.org/what-we-do/isad',
     style_url: '/../../style/isad-widget.css',
     days_before: 22,
     days_after: 7,

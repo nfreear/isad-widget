@@ -37,7 +37,8 @@ function decideStyleUrl (CFG) {
 
   // Support for 'unpkg' CDN short URL.
   if (/@\d\.\d\.\d(-[\w.]+)(#|_.js|$)/.test(CFG.script_url)) {
-    CFG.log('ISAD: npm @version found');
+    console.warn('ISAD: npm @version found');
+
     CFG.style_url = CFG.style_url.replace('/../..', '');
     CFG.script_url = CFG.script_url.replace(/(#.*|_\.js)/, '');
   }

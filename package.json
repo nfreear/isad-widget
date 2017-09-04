@@ -1,6 +1,6 @@
 {
   "name": "isad-widget",
-  "version": "1.0.0-beta",
+  "version": "1.0.1-beta",
   "description": "Display a banner-link to promote International Stuttering Awareness Day (ISAD) - 22nd October.",
   "license": "MIT",
   "x-browser": "dist/isad-widget.js",
@@ -36,5 +36,6 @@
   ],
   "files": [
     "index.js", "dist/", "src/", "style/"
-  ]
+  ],
+  "x-build-js-size": "3.5kB"
 }
