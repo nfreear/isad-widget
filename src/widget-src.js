@@ -46,8 +46,12 @@ module.exports = function (ISAD_DATE, methods) {
 
   isad.message = texts.p1 + texts.theme;
 
+  console.warn('isad-widget:', isad);
+
   methods.addStylesheet(isad);
   methods.setHTML(isad);
 
-  console.warn('isad-widget:', isad);
+  window.console && console.log('Happy ISAD! ~ http://isastutter.org/what-we-do/isad');
+
+  return isad;
 };

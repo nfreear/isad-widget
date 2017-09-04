@@ -6,7 +6,7 @@ node_modules
 *.jpg
 !isad-widget.jpg
 *.css
-*.html
+# *.html
 *.log
 package-lock.json
 *BAK*
