@@ -13,7 +13,9 @@ Display a banner-link to promote [International Stuttering Awareness Day (ISAD)]
 > – one percent of the world's population[2][3] –
 > who have the speech disorder of stuttering, also known as stammering. _([Wikipedia][wiki-isad])_
 
-[![International Stuttering Awareness Day (ISAD)][isad-2017-img]][isad]
+[![International Stuttering Awareness Day (ISAD)][widget-img]][isad]
+
+[![International Stuttering Awareness Day (ISAD)][isad-2017-sm]][isad]
 
 [![International Stuttering Awareness Day (ISAD)][isad-image]][isad]
 
@@ -70,6 +72,7 @@ Twitter: [@nfreear][].
 [ISA]: http://www.isastutter.org/ "© 1998-2017 - International Stuttering Association"
 [isad-conf]: http://isad.isastutter.org/isad/
 [isad-2017-img]: http://isad.isastutter.org/wp-content/uploads/2017/06/ISAD2017.gif
+[isad-2017-sm]: https://raw.githubusercontent.com/nfreear/isad-widget/master/style/ISAD2017-sm.gif
    "International Stuttering Awareness Day (ISAD) — 2017 campaign poster"
 [bsa-isad]: http://www.stammering.org/isad "British Stammering Association (BSA)"
 [bsa-isad-2]: http://www.stammering.org/isad.html
@@ -81,6 +84,8 @@ Twitter: [@nfreear][].
    "International Stuttering Awareness Day (ISAD) — ribbon"
 [Teal-ribbon]: https://commons.wikimedia.org/wiki/File:Teal_ribbon.svg "License: CC-BY-SA-3.0"
 
+[widget-img]: https://raw.githubusercontent.com/nfreear/isad-widget/master/style/isad-widget.jpg
+    "International Stuttering Awareness Day (ISAD) — widget"
 [@nfreear]: https://twitter.com/nfreear "Twitter: @nfreear"
 [gh]: https://github.com/nfreear/isad-widget
 [gaad-widget]: https://github.com/nfreear/gaad-widget
