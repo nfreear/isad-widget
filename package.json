@@ -1,6 +1,6 @@
 {
   "name": "isad-widget",
-  "version": "1.0.1-beta",
+  "version": "1.1.0-beta",
   "description": "Display a banner-link to promote International Stuttering Awareness Day (ISAD) - 22nd October.",
   "license": "MIT",
   "x-browser": "dist/isad-widget.js",
@@ -8,6 +8,8 @@
   "main": "./index.js",
   "author": "Nick Freear {@nfreear}",
   "repository": "https://github.com/nfreear/isad-widget",
+  "bugs": "https://github.com/nfreear/isad-widget/issues",
+  "homepage": "http://nick.freear.org.uk/2017/09/04/isad-widget.html?isad-widget=f&utm_source=npm",
   "devDependencies": {
     "browserify": "^14.4.0",
     "csslint": "^1.0.5",

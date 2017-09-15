@@ -40,7 +40,15 @@ Via [unpkg][] — production CDN:
 ```html
 <div id="isad-widget"></div>
 
-<script src="https://unpkg.com/isad-widget@1.0.1-beta#._.js"></script>
+<script src="https://unpkg.com/isad-widget@1.1.0-beta#._.js"></script>
+```
+
+Link to the [BSA][bsa-isad], instead of [ISA][isad]:
+
+```html
+<div id="isad-widget" data-isad-widget='{ "point_bsa": true }'></div>
+
+<script src="dist/isad-widget.js"></script>
 ```
 
 ## Credits
@@ -49,6 +57,8 @@ Via [unpkg][] — production CDN:
 * The [ISAD-ribbon][] is available under a Creative Commons `CC-BY-3.0` license,
 * The [Teal-ribbon][] is available under a Creative Commons `CC-BY-SA-3.0` license.
 
+See the related [gaad-widget][].
+
 ## License
 
 License: [MIT][].
@@ -56,12 +66,12 @@ License: [MIT][].
 Twitter: [@nfreear][].
 
 
-[ISAD]: http://www.isastutter.org/what-we-do/isad
+[ISAD]: http://isastutter.org/what-we-do/isad?utm_source=github&utm_campaign=isad-widget
 [ISA]: http://www.isastutter.org/ "© 1998-2017 - International Stuttering Association"
 [isad-conf]: http://isad.isastutter.org/isad/
 [isad-2017-img]: http://isad.isastutter.org/wp-content/uploads/2017/06/ISAD2017.gif
    "International Stuttering Awareness Day (ISAD) — 2017 campaign poster"
-[bsa-isad]: http://www.stammering.org/isad
+[bsa-isad]: http://www.stammering.org/isad "British Stammering Association (BSA)"
 [bsa-isad-2]: http://www.stammering.org/isad.html
 [bsa-r]: https://stammering.org/get-involved/help-us-raise-awareness/international-stammering-awareness-day-22nd-october
 [bsa-i3]: https://stammering.org/get-involved/help-raise-awareness-and-campaign/using-isad-talk-about-stammering
@@ -73,7 +83,8 @@ Twitter: [@nfreear][].
 
 [@nfreear]: https://twitter.com/nfreear "Twitter: @nfreear"
 [gh]: https://github.com/nfreear/isad-widget
-[gh-gaad]: https://github.com/nfreear/gaad-widget
+[gaad-widget]: https://github.com/nfreear/gaad-widget
+    "banner-link for Global Accessibility Awareness Day (GAAD)"
 
 [unpkg]: https://unpkg.com/ "unpkg is a fast content delivery network for everything on npm"
 [MIT]: https://nfreear.mit-license.org/2017#!-isad-widget
