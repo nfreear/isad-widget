@@ -2,6 +2,9 @@
 [![js-semistandard-style][semi-icon]][semi]
 [![ISAD-widget on Npmjs][npm-icon]][npm]
 [![License][license-icon]][mit]
+[![Total downloads ~ NPMJS.com][downl-icon]][npm]
+[![Size of Javascript][size-icon]][build]
+<!--[![vulnerabilities][snyk-icon]][snyk]-->
 
 # isad-widget
 
@@ -45,10 +48,18 @@ Via [unpkg][] — production CDN:
 <script src="https://unpkg.com/isad-widget@1.1.0-beta#._.js"></script>
 ```
 
-Link to the [BSA][bsa-isad], instead of [ISA][isad]:
+Link to the [BSA][bsa-isad], instead of [ISA][isad] (_the default_):
 
 ```html
 <div id="isad-widget" data-isad-widget='{ "point_bsa": true }'></div>
+
+<script src="dist/isad-widget.js"></script>
+```
+
+The banner should appear _28 days before ISAD_, instead of the default:
+
+```html
+<div id="isad-widget" data-isad-widget='{ "days_before": 28 }'></div>
 
 <script src="dist/isad-widget.js"></script>
 ```
@@ -59,7 +70,7 @@ Link to the [BSA][bsa-isad], instead of [ISA][isad]:
 * The [ISAD-ribbon][] is available under a Creative Commons `CC-BY-3.0` license,
 * The [Teal-ribbon][] is available under a Creative Commons `CC-BY-SA-3.0` license.
 
-See the related [gaad-widget][].
+_See the related [gaad-widget][]._
 
 ## License
 
@@ -88,8 +99,6 @@ Twitter: [@nfreear][].
     "International Stuttering Awareness Day (ISAD) — widget"
 [@nfreear]: https://twitter.com/nfreear "Twitter: @nfreear"
 [gh]: https://github.com/nfreear/isad-widget
-[gaad-widget]: https://github.com/nfreear/gaad-widget
-    "banner-link for Global Accessibility Awareness Day (GAAD)"
 
 [unpkg]: https://unpkg.com/ "unpkg is a fast content delivery network for everything on npm"
 [MIT]: https://nfreear.mit-license.org/2017#!-isad-widget
@@ -103,5 +112,19 @@ Twitter: [@nfreear][].
 [npm]: https://npmjs.com/package/isad-widget
 [npm-icon]: https://img.shields.io/npm/v/isad-widget.svg
 [license-icon]: https://img.shields.io/npm/l/isad-widget.svg
+
+[downl-icon]: https://img.shields.io/npm/dt/isad-widget.svg "Count of total downloads ~NPM"
+[size-icon]: https://img.shields.io/github/size/nfreear/isad-widget/dist/isad-widget.js.svg
+    "Size of built Javascript, kilo-bytes (kB) ~ on GitHub"
+[built-icon]: https://img.shields.io/badge/built_with-browserify-blue.svg
+    "Built with Browserify"
+[build]: https://github.com/nfreear/isad-widget/tree/3.x/dist
+[Browserify]: http://browserify.org/
+    "Browserify lets you require('modules') in the browser by bundling your dependencies."
+[snyk]: https://snyk.io/test/npm/isad-widget "Vulnerability count ~ via Snyk"
+[snyk-icon]: https://snyk.io/test/npm/isad-widget/badge.svg
+
+[gaad-widget]: https://github.com/nfreear/gaad-widget
+    "banner-link for Global Accessibility Awareness Day (GAAD)"
 
 [End]: //.

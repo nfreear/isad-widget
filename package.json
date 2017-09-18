@@ -39,5 +39,5 @@
   "files": [
     "index.js", "dist/", "src/", "style/"
   ],
-  "x-build-js-size": "3.5kB"
+  "x-build-js-size": "4.6 kB"
 }
