@@ -1,5 +1,8 @@
 
-dist
+lang/
+
+dist/*
+#!dist/isad-widget.js
 dropbox
 gaad-*
 node_modules

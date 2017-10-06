@@ -9,7 +9,7 @@
 # isad-widget
 
 Display a banner-link to promote [International Stuttering Awareness Day (ISAD)][isad]
-— 22nd October each year.
+— 22nd October each year. The banner appears for a configurable number of days before and after.
 
 > October 22 was designated International Stuttering Awareness Day (ISAD) in 1998.[1]
 > The day is intended to raise public awareness of the millions of people
@@ -56,7 +56,7 @@ Link to the [BSA][bsa-isad], instead of [ISA][isad] (_the default_):
 <script src="dist/isad-widget.js"></script>
 ```
 
-The banner should appear _28 days before ISAD_, instead of the default:
+Configure the banner to appear for _28 days before ISAD_, instead of the default:
 
 ```html
 <div id="isad-widget" data-isad-widget='{ "days_before": 28 }'></div>
