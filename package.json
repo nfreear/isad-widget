@@ -14,10 +14,11 @@
     "browserify": "^14.4.0",
     "csslint": "^1.0.5",
     "less": "^2.7.2",
+    "replace": "^0.3.0",
     "semistandard": "^11.0.0"
   },
   "scripts": {
-    "build": "npm run mkdir && npm run browserify && npm run less",
+    "build": "src/_ver.js && npm run mkdir && npm run browserify && npm run less",
     "test": "semistandard && csslint style",
     "mkdir": "[ -d dist ] || mkdir dist",
     "browserify": "browserify index.js > dist/isad-widget.js",

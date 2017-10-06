@@ -3,7 +3,7 @@
 [![ISAD-widget on Npmjs][npm-icon]][npm]
 [![License][license-icon]][mit]
 [![Total downloads ~ NPMJS.com][downl-icon]][npm]
-[![Size of Javascript][size-icon]][build]
+<!--[![Size of Javascript][size-icon]][build]-->
 <!--[![vulnerabilities][snyk-icon]][snyk]-->
 
 # isad-widget
@@ -45,7 +45,7 @@ Via [unpkg][] — production CDN:
 ```html
 <div id="isad-widget"></div>
 
-<script src="https://unpkg.com/isad-widget@1.1.0-beta#._.js"></script>
+<script src="https://unpkg.com/isad-widget@1.1.0#._.js"></script>
 ```
 
 Link to the [BSA][bsa-isad], instead of [ISA][isad] (_the default_):
